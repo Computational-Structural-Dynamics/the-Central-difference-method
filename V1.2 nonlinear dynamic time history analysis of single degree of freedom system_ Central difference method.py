@@ -133,7 +133,7 @@ plt.show()#show the figure, including four subplots
 
 
 
-################################      保存时程反应数据  ###############################
+################################      Save time history response data  ###############################
 t_header="Time(s)"
 u_header="Displacement(m)"
 file_name_u_t="Displacement-Time Data.txt"
@@ -161,4 +161,4 @@ print('Displacement-Resilience Data has been saved to"%s"！' %file_name_fs_u)
 print("Analysis process takes {:.3f}s".format(t2-t1))#Time consuming in nonlinear time history analysis
 print("Drawing process takes {:.3f}s".format(t2_plot-t1_plot))#Time consuming in drawing
 input()#Wait for input, the function is equivalent to pause.
-################################      保存时程反应数据  ###############################
+
